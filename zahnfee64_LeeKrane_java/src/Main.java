@@ -20,4 +20,12 @@ public class Main {
 	private int mul (int originalVar, int multiplicator) {
 		return originalVar * multiplicator;
 	}
+	
+	private int pow (int originalVar, int power) {
+		int ret = originalVar;
+		for (int i = 1; i <= power; i++) {
+			ret = ret * originalVar;
+		}
+		return ret;
+	}
 }
