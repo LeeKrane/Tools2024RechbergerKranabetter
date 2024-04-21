@@ -7,6 +7,11 @@ public class Main {
 	public void thisIsANewMethod () {
 		System.out.println("Mina's change");
 		System.out.println("Krane's change!");
+
+		System.out.println("Here we go again");
+		System.out.println("Max Vestappen");
+		System.out.println("bugfix");
+
 		int uselessVar = 10;
 		System.out.println(uselessVar);
 		System.out.println(add(uselessVar, 20));
