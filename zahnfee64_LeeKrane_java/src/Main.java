@@ -5,6 +5,6 @@ public class Main {
 	}
 	
 	public void thisIsANewMethod () {
-		
+		System.out.println("Mina's change");
 	}
 }
